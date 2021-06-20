@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    master:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3316/db?useSSL=false&serverTimezone=UTC
+      username: root
+      password: 123456
+    slave1:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3326/db?useSSL=false&serverTimezone=UTC
+      username: root
+      password: 123456
